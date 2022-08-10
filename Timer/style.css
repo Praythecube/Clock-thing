@@ -1,0 +1,46 @@
+#clock {
+    border-radius: 50%;
+	height: 30rem;
+	width: 30rem;
+    border: blue 40px solid;
+    margin: auto;
+}
+
+#inner-clock {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#hour-hand {
+    width: 150px;
+    height: 10px;
+    left: 50%;
+    top: 280px;
+    background-color: black;
+    position: absolute;
+    transform-origin: left;
+    transform: rotate(45deg);
+}
+
+#minute-hand {
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    left: 50%;
+    top: 280px;
+    position: absolute;
+    background-color: black;
+    transform-origin: left;
+}
+
+#second-hand {
+    background-color: black;
+    position: absolute;;
+}
+
+html {
+    background-color: rgb(182, 182, 182);
+}
