@@ -1,8 +1,13 @@
+@font-face {
+    src: url(babyblocks/baby\ blocks.ttf);
+    font-family: babyBlocks;
+}
+
 #clock {
     border-radius: 50%;
 	height: 30rem;
 	width: 30rem;
-    border: blue 40px solid;
+    border: blue 20px solid;
     margin: auto;
 }
 
@@ -11,7 +16,7 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    background-color: orange;
+    background-color: white;
 }
 
 #hour-hand {
@@ -49,5 +54,16 @@
 }
 
 html {
-    background-color: rgb(182, 182, 182);
+    background-color: #DBF9FC;
+    top: 50%;
+}
+
+body {
+    top: 50%;
+}
+
+#text {
+    padding-top: 20%;
+    text-align: center;
+    font-family: babyBlocks;
 }
