@@ -19,7 +19,7 @@ function calc() {
     const minDeg = ((minutes / 60) * 360) + ((seconds / 60) * 6) - 90;
     minute_hand.style.transform = `rotate(${minDeg}deg)`;
 
-    const hourDeg = (((hours / 12) * 360) / 2) + ((minutes / 60) * 30) - 90;
+    const hourDeg = ((hours / 12) * 360) + ((minutes / 60) * 30) - 90;
     hour_hand.style.transform = `rotate(${hourDeg}deg)`;
 
     console.log(minDeg);
