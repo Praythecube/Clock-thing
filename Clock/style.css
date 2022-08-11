@@ -28,6 +28,7 @@
     position: absolute;
     transform-origin: left;
     transform: rotate(90deg);
+    border-radius: 7.5px;
 }
 
 #minute-hand {
@@ -40,17 +41,19 @@
     background-color: black;
     transform-origin: left;
     transform: rotate(90deg);
+    border-radius: 7.5px;
 }
 
 #second-hand {
     background-color: black;
     position: absolute;;
-    width: 200px;
-    height: 10px;
+    width: 210px;
+    height: 7.5px;
     top: 280px;
     left: 50%;
     transform-origin: left;
     transform: rotate(90deg);
+    border-radius: 7.5px;
 }
 
 html {
